@@ -1,0 +1,66 @@
+.btnClass {
+    margin: 2px;
+}
+
+.content-main {
+    margin: auto;
+    width: 98%;
+    background-color: antiquewhite;
+    padding: 1%;
+    overflow: auto;
+}
+.left-content {
+    float: left;
+    margin: auto;
+    width: 94%;
+    background-color: lightgray;
+    padding: 2%;
+    min-height: 500px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+button.btnClass{
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100% !important;
+}
+
+td{
+    width: 15em !important;
+}
+
+h3, h4{
+    margin-bottom: 5px;
+    color: maroon;
+}
+
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.success-page{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    width: 100%;
+    margin: 0 auto
+}
+
+.success-page h2{}
+
+#loader img{
+    width: 30%;
+    margin: auto;
+    margin-top: 30%;
+}
