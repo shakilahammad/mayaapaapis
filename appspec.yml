@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/test
+     destination: /var/www/html
 permissions:
-   - object: /var/www/html/test
+   - object: /var/www/html
      pattern: "**"
      owner: apache
      group: apache
