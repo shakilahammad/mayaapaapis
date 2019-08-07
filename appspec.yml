@@ -4,7 +4,7 @@ files:
    - source: /
      destination: /var/www/html/test
 permissions:
-   - object: /var/www/html//test
+   - object: /var/www/html/test
      pattern: "**"
      owner: apache
      group: apache
