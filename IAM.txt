@@ -1,4 +1,6 @@
 // Policy Role for Code Deploy
+//this is a test deployment
+//Please have a look of this push
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -38,16 +40,16 @@
 }
 
 // Instance Role for EC2 Instance
-{ 
-    "Version": "2012-10-17", 
-    "Statement": [   
-      {     
-          "Action": [       
-              "s3:Get*",       
-              "s3:List*"     
-          ],     
-          "Effect": "Allow",     
-          "Resource": "*"   
-      } 
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+          "Action": [
+              "s3:Get*",
+              "s3:List*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+      }
     ]
 }
